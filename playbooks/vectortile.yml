@@ -1,0 +1,12 @@
+---
+- name: Test new role from within this playbook
+  hosts: vectortile
+  gather_facts: true
+  tasks:
+    - name: Add users
+      ansible.builtin.include_role:
+        name: robertdebock.users
+
+    - name: Testing role
+      ansible.builtin.include_role:
+        name: vectortile

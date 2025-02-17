@@ -1,0 +1,12 @@
+---
+driver:
+  name: podman
+platforms:
+  - name: instance
+    # Debian 12
+    image: docker.io/python:3-bookworm
+    pre_build_image: true
+provisioner:
+  name: ansible
+  playbooks:
+    converge: converge.yml
