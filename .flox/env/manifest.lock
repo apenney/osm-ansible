@@ -1,0 +1,393 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "ansible": {
+        "pkg-path": "ansible"
+      },
+      "ansible-lint": {
+        "pkg-path": "ansible-lint"
+      },
+      "molecule": {
+        "pkg-path": "molecule"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "ansible",
+      "broken": false,
+      "derivation": "/nix/store/mmql3hrg2rqwyh6cs7chc0vp1swsdly9-python3.12-ansible-core-2.18.1.drv",
+      "description": "Radically simple IT automation",
+      "install_id": "ansible",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-core-2.18.1",
+      "pname": "ansible",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.18.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/4jpqqqamj4l4b6sbik9c69v7jxwjjzjj-python3.12-ansible-core-2.18.1-dist",
+        "out": "/nix/store/grqcvr7l457ks79d9cr4jq0apcifxinv-python3.12-ansible-core-2.18.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible",
+      "broken": false,
+      "derivation": "/nix/store/v7fsk3j9axp8kcg7lcn9hx02rh3y748j-python3.12-ansible-core-2.18.1.drv",
+      "description": "Radically simple IT automation",
+      "install_id": "ansible",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-core-2.18.1",
+      "pname": "ansible",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.18.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/pc344nkz8b4p62729y59jwzjlzdbnqj0-python3.12-ansible-core-2.18.1-dist",
+        "out": "/nix/store/w8j04xgwp3fn8368cdgpibcasdqg12y3-python3.12-ansible-core-2.18.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible",
+      "broken": false,
+      "derivation": "/nix/store/b6j9rcw9m148qy9spqrf0g2msxljklrc-python3.12-ansible-core-2.18.1.drv",
+      "description": "Radically simple IT automation",
+      "install_id": "ansible",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-core-2.18.1",
+      "pname": "ansible",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.18.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/nrnn8zxrgvrn2xxnnnc8ml5hl9w88r5k-python3.12-ansible-core-2.18.1-dist",
+        "out": "/nix/store/ma5sv31v0hbyjf0xxl2dbmymw9mp4g7h-python3.12-ansible-core-2.18.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible",
+      "broken": false,
+      "derivation": "/nix/store/71kxhdsc9f8zy247kxlhv7p3fmgpc0am-python3.12-ansible-core-2.18.1.drv",
+      "description": "Radically simple IT automation",
+      "install_id": "ansible",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-core-2.18.1",
+      "pname": "ansible",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.18.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/9lc34jqvbn8ygp2g0sagxmfjgkwi3g9b-python3.12-ansible-core-2.18.1-dist",
+        "out": "/nix/store/ypsx6nxccpyb70fq4jbpr090hxg85889-python3.12-ansible-core-2.18.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible-lint",
+      "broken": false,
+      "derivation": "/nix/store/h6hd030wkv1r53mdwy0q2452basb709l-ansible-lint-24.12.2.drv",
+      "description": "Best practices checker for Ansible",
+      "install_id": "ansible-lint",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-lint-24.12.2",
+      "pname": "ansible-lint",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/db2wjc4ws82wl3fq018fk5ya15src241-ansible-lint-24.12.2-dist",
+        "out": "/nix/store/gi7daf6253smx99mlgh4s6nycgj9apaf-ansible-lint-24.12.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible-lint",
+      "broken": false,
+      "derivation": "/nix/store/3dds0jkdysxg0709inzdjlz7v1yvh9f6-ansible-lint-24.12.2.drv",
+      "description": "Best practices checker for Ansible",
+      "install_id": "ansible-lint",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-lint-24.12.2",
+      "pname": "ansible-lint",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/ib4bwrd8dps75bjc7pw5y8m16wz0ndh6-ansible-lint-24.12.2-dist",
+        "out": "/nix/store/jlv8qq03bxcxk55l66pyj201v8ilsx9n-ansible-lint-24.12.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible-lint",
+      "broken": false,
+      "derivation": "/nix/store/ngfczvlfcnbc9ivrkqmg75xr2sh62snw-ansible-lint-24.12.2.drv",
+      "description": "Best practices checker for Ansible",
+      "install_id": "ansible-lint",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-lint-24.12.2",
+      "pname": "ansible-lint",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/sam71ffc1csgbf4gnmhxka7ha5a7vbid-ansible-lint-24.12.2-dist",
+        "out": "/nix/store/f7mzq9lvqakikkjn5im2bcahfrqymad0-ansible-lint-24.12.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ansible-lint",
+      "broken": false,
+      "derivation": "/nix/store/0wfjl094jdkpwhiwsmin0s822mxbrq1g-ansible-lint-24.12.2.drv",
+      "description": "Best practices checker for Ansible",
+      "install_id": "ansible-lint",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "ansible-lint-24.12.2",
+      "pname": "ansible-lint",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/hl5c0vcqh47dih54acpq3xjsnas3l60g-ansible-lint-24.12.2-dist",
+        "out": "/nix/store/n8xh20c7q9klgbdn03lr66rc2ranp9ks-ansible-lint-24.12.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "molecule",
+      "broken": false,
+      "derivation": "/nix/store/f3ndgj3hmxhml50da6h2jaqj2yp8izfw-python3.12-molecule-25.1.0.drv",
+      "description": "Molecule aids in the development and testing of Ansible roles",
+      "install_id": "molecule",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "molecule-25.1.0",
+      "pname": "molecule",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/d31kxizwp2as4gp81bx3qsb1015nj32b-python3.12-molecule-25.1.0-dist",
+        "out": "/nix/store/lvabvsc922pjxpk9rmqp42hfj7cammk8-python3.12-molecule-25.1.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "molecule",
+      "broken": false,
+      "derivation": "/nix/store/10zagm4idihn9a6v88hnmw9583k28rfm-python3.12-molecule-25.1.0.drv",
+      "description": "Molecule aids in the development and testing of Ansible roles",
+      "install_id": "molecule",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "molecule-25.1.0",
+      "pname": "molecule",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/zh7qjcplwi8fdhpwnkr6bcpwrkig4ijr-python3.12-molecule-25.1.0-dist",
+        "out": "/nix/store/jawmbnzwm2py7i7hqlplmz5blilllx7v-python3.12-molecule-25.1.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "molecule",
+      "broken": false,
+      "derivation": "/nix/store/7kkdf4p43va641jvmzs6321pxwn2izgn-python3.12-molecule-25.1.0.drv",
+      "description": "Molecule aids in the development and testing of Ansible roles",
+      "install_id": "molecule",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "molecule-25.1.0",
+      "pname": "molecule",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/kvldg4k2q8hfaf84rjqqhrkzqx9bwzi1-python3.12-molecule-25.1.0-dist",
+        "out": "/nix/store/y117il9x1xqyyzlgx3ran3mmrpzygd0a-python3.12-molecule-25.1.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "molecule",
+      "broken": false,
+      "derivation": "/nix/store/5yn217cdmkma0cb8s7pyakflxzkkbqv7-python3.12-molecule-25.1.0.drv",
+      "description": "Molecule aids in the development and testing of Ansible roles",
+      "install_id": "molecule",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2ff53fe64443980e139eaa286017f53f88336dd0",
+      "name": "molecule-25.1.0",
+      "pname": "molecule",
+      "rev": "2ff53fe64443980e139eaa286017f53f88336dd0",
+      "rev_count": 752742,
+      "rev_date": "2025-02-13T11:42:38Z",
+      "scrape_date": "2025-02-15T05:15:55Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/piy6vsg5x4ifiwz3m8clw6xcmvn2ld1f-python3.12-molecule-25.1.0-dist",
+        "out": "/nix/store/qd1g0ry2j003g6b44fkn9007cbcis94q-python3.12-molecule-25.1.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
