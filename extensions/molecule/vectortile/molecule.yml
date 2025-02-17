@@ -1,0 +1,7 @@
+---
+driver:
+  name: podman
+platforms:
+  - name: vectortile
+    image: docker.io/debian:12
+    pre_build_image: true
